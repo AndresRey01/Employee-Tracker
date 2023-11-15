@@ -1,5 +1,23 @@
 {
+  "name": "mysqlemployee-trackerjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git"
+ 
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  
+  },
   "dependencies": {
+    "console.table": "^0.10.0",
     "inquirer": "^8.2.4",
     "mysql2": "^3.6.3"
   }
