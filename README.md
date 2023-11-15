@@ -26,3 +26,6 @@ This is an employee tracker database created in the UW Coding Bootcamp. It allow
 
 ## Screenshot
 ![Screenshot_20231114_105851](https://github.com/AndresRey01/Employee-Tracker/assets/140764079/8f35fde6-881c-4c79-80c0-59755818c35a)
+
+## Video
+[Untitled_ Nov 14 2023 11_06 PM.webm](https://github.com/AndresRey01/Employee-Tracker/assets/140764079/c58018c2-c58f-46fc-943d-2fd1d45bcc59)
