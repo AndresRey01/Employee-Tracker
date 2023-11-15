@@ -1,31 +1,27 @@
 USE company_db;
 
--- Insert employees
-INSERT INTO employees(first_name, last_name, roles_id, manager_id)
-VALUES
-('Joseph', 'Star', 1, 1),
-('Michael', 'Jordan', 2, 2),
-('George', 'Washington', 3, 3),
-('James', 'Smith', 4, 4),
-('Caitlyn', 'Sword', 5, 5),
-('Courage', 'Cowardly', 1, 1),
-('Emma', 'Stone', 2, 2);
+INSERT INTO department (name)
+VALUES  ("Sales"),
+        ("Engineering"),
+        ("Finance"),
+        ("Legal");
 
+INSERT INTO role (title, salary, department_id)
+VALUES  ("Sales Lead", 100000, 1),
+        ("Salesperson", 80000, 1),
+        ("Lead Engineer", 150000, 2),
+        ("Software Engineer", 120000, 2),
+        ("Account Manager", 160000, 3),
+        ("Accountant", 125000, 3),
+        ("Legal Team Lead", 250000, 4),
+        ("Lawyer", 190000, 4);
 
--- Insert departments
-INSERT INTO department(department_name)
-VALUES
-('Fruit'),
-('Dairy'),
-('Meat'),
-('Grocery'),
-('Receiving');
-
--- Insert roles
-INSERT INTO roles(title, salary, department_id)
-VALUES
-('Fruit Manager', 25000, 1),
-('Dairy Manager', 20000, 2),
-('Meat Manager', 32000, 3),
-('Grocery Manager', 40000, 4),
-('Receiver', 15000, 5);
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES  ("John", "Doe", 1, null),
+        ("Mike", "Chan", 2, 1),
+        ("Ashley", "Rodriguez", 3, null),
+        ("Kevin", "Tupik", 4, 3),
+        ("Kunal", "Singh", 5, null),
+        ("Malia", "Brown", 6, 5),
+        ("Sarah", "Lourd", 7, null),
+        ("Tom", "Allen", 8, 7);
