@@ -28,7 +28,6 @@ db.query('SELECT * FROM department', (error, results, fields) => {
         console.error('Error executing query:', error);
         return;
     }
-    console.log('Departments:', results);
     // Process and display the results here
 });
 
